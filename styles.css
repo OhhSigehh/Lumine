@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+.con {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+main {
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+}
+.navdiv {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar {
+    padding-right: 3px;
+    padding-left: 30px;
+    background-color: hsl(0, 0%, 50%);
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: hsl(0, 0%, 14%);
+}
+li {
+    list-style: none; 
+    display: inline-block;
+}
+li a {
+color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.section {
+    margin: 0;
+    text-align: center;
+}
+.logo h1 {
+    color: white;
+    font-family: courier, monospace;
+}
