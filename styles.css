@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'lucida grande' ;
+}
+.con {
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: hsla(0, 3%, 74%, 0.5);
+    border: 5px solid hsl(229, 96%, 85%);
+}
+main {
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+}
+.navdiv {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar {
+    padding-right: 3px;
+    padding-left: 30px;
+    background-color: hsl(0, 0%, 50%);
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: hsl(0, 0%, 14%);
+}
+li {
+    list-style: none; 
+    display: inline-block;
+}
+li a {
+color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.section {
+    margin: 0;
+    text-align: center;
+}
+.logo h1 {
+    color: white;
+    font-family: courier, monospace;
+}
+.info-table {
+    width: 100%;
+    margin-top: 14px;
+    border-collapse: collapse;
+}  
+.info-table td {
+    font-size: 25px;
+    padding: 20px;
+    border-bottom: 3px solid hsl(0, 10%, 74%);
+}
+.info-table td a{
+    font-size: 25px;
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 3px solid hsl(0, 10%, 74%);
+}
+.info-table td:first-child {
+    font-weight: bold;
+    font-size: 25px;
+    color: hsl(0, 20%, 89%);
+    text-align: right;
+}
