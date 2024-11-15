@@ -77,6 +77,10 @@ color: white;
     font-size: 25px;
     padding: 20px;
     border-bottom: 3px solid hsl(0, 10%, 74%);
+    font-weight: 900;
+    font-family: courier, monospace;
+    color: hsl(250, 60%, 60%);
+
 }
 .info-table td a{
     font-size: 25px;
