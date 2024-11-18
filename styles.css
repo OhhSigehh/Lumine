@@ -60,6 +60,7 @@ h1 {
 }
 .navbar a:hover {
     background-color: hsl(0, 0%, 14%);
+    font-size: 25px;
 }
 li {
     list-style: none; 
@@ -115,7 +116,4 @@ color: white;
 }
 b {
     color: hsl(250, 50%, 80%);
-}
-span:hover + div {
-  display: block;
 }
