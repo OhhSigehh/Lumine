@@ -38,15 +38,13 @@ h1 {
     font-family: courier, monospace;
     color: hsl(250, 60%, 60%);
 }
-.navdiv {
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}
 .navbar {
+    display: flex;
     padding-right: 3px;
     padding-left: 30px;
+    align-items: center;
     background-color: hsl(0, 0%, 50%, 0.3);
+    justify-content: space-between;
 }
 .navbar ul {
     list-style-type: none;
@@ -74,10 +72,6 @@ color: white;
     margin-right: 25px;
     font-family: courier, monospace;
 }
-.section {
-    margin: 0;
-    text-align: center;
-}
 .logo h1 {
     color: white;
     font-family: courier, monospace;
@@ -98,7 +92,6 @@ color: white;
 }
 .info-table td a{
     font-size: 25px;
-    color: hsl(0, 0%, 0%);
     font-weight: 900;
     text-decoration: none;
     font-family: courier, monospace;
@@ -122,4 +115,7 @@ color: white;
 }
 b {
     color: hsl(250, 50%, 80%);
+}
+span:hover + div {
+  display: block;
 }
