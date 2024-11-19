@@ -127,7 +127,7 @@ li a {
 b {
     color: hsl(250, 50%, 80%);
 }
-p b {
+.section p b {
     color: hsl(250, 50%, 80%);
     font-size: 40px;
     margin-bottom:30px;
