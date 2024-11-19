@@ -1,3 +1,6 @@
+* {
+    font-family: courier, monospace;
+}
 body {
     margin: 0;
 }
@@ -38,6 +41,13 @@ h1 {
     font-family: courier, monospace;
     color: hsl(250, 60%, 60%);
 }
+.section {
+    margin: 0px 0;
+    text-align: center;
+    background-color: hsl(0, 70%, 0%, 0.4);
+    border: 5px double hsl(0, 0%, 50%);
+    border-radius: 5px;
+}
 .navbar {
     display: flex;
     padding-right: 3px;
@@ -54,20 +64,20 @@ h1 {
 .navbar a {
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding: 3px;
     display: block;
     text-align: center;
 }
 .navbar a:hover {
     background-color: hsl(0, 0%, 14%);
-    font-size: 25px;
+    font-size: 30px;
 }
 li {
     list-style: none; 
     display: inline-block;
 }
 li a {
-color: white;
+    color: white;
     font-size: 18px;
     font-weight: bold;
     margin-right: 25px;
@@ -116,4 +126,37 @@ color: white;
 }
 b {
     color: hsl(250, 50%, 80%);
+}
+p b {
+    color: hsl(250, 50%, 80%);
+    font-size: 40px;
+    margin-bottom:30px;
+}
+audio::-webkit-media-controls-panel
+{
+    background-color: hsl(250, 60%, 60%);
+}
+audio::-webkit-media-controls-mute-button {
+    background-color: hsl(250, 50%, 80%);
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button {
+  background-color: hsl(250, 60%, 40%);
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-current-time-display {
+  color: #ffffff;
+}
+audio::-webkit-media-controls-time-remaining-display {
+    color: #ffffff;
+}
+.icon-container {
+    color: hsl(0, 0%, 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.audio-icon {
+    width: 7%;
 }
