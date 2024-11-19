@@ -150,13 +150,3 @@ audio::-webkit-media-controls-current-time-display {
 audio::-webkit-media-controls-time-remaining-display {
     color: #ffffff;
 }
-.icon-container {
-    color: hsl(0, 0%, 70%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.audio-icon {
-    width: 7%;
-}
