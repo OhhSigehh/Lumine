@@ -151,7 +151,7 @@ audio::-webkit-media-controls-time-remaining-display {
     display: none;
 }
 audio::-webkit-media-controls-volume-slider {
-  background-color: hsl(250, 50%, 65%);
+  background-color: hsl(250, 50%, 80%);
   border-radius: 25px;
   padding-left: 10px;
   padding-right: 10px;
@@ -166,5 +166,11 @@ video::-webkit-media-controls-time-remaining-display {
     display: none;
 }
 video::-webkit-media-controls-timeline-container {
+    display: none;
+}
+video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+video::-webkit-media-controls-play-button {
     display: none;
 }
