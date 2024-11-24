@@ -174,3 +174,6 @@ video::-webkit-media-controls-fullscreen-button {
 video::-webkit-media-controls-play-button {
     display: none;
 }
+video::-webkit-media-controls-volume-slider {
+    display: none;
+}
